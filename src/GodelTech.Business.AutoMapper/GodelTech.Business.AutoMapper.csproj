@@ -29,6 +29,7 @@
 
 	<ItemGroup>
 		<!-- Source Link needs this -->
+		<PackageReference Include="AutoMapper" Version="10.0.0" />
 		<PackageReference Include="GodelTech.Business" Version="2.0.1" />
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
 	</ItemGroup>
