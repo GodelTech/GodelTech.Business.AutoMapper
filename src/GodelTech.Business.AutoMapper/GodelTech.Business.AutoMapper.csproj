@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<PackageId>GodelTech.Business.AutoMapper</PackageId>
+		<VersionPrefix>2.0.0</VersionPrefix>
+		<Authors>v.rodchenko</Authors>
+		<Company>Godel Technologies</Company>
+		<Description>Library for using AutoMapper with GodelTech.Business</Description>
+		<Copyright>Godel Technologies 2021</Copyright>
+		<PackageLicenseUrl>https://github.com/GodelTech/GodelTech.Business.AutoMapper/blob/master/LICENSE</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/GodelTech/GodelTech.Business.AutoMapper/wiki</PackageProjectUrl>
+		<PackageIconUrl>https://www.gravatar.com/avatar/839234621070de51e7b9cabd5ceee8fe?s=64</PackageIconUrl>
+		<RepositoryUrl>https://github.com/GodelTech/GodelTech.Business.AutoMapper</RepositoryUrl>
+		<PackageTags>Service Business Layer AutoMapper</PackageTags>
+
+		<!-- XML documentation -->
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+		<!-- Source Link needs this -->
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+		<!-- SonarQube needs this -->
+		<ProjectGuid>{00000000-0000-0000-0000-000000000001}</ProjectGuid>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Source Link needs this -->
+		<PackageReference Include="AutoMapper" Version="10.0.0" />
+		<PackageReference Include="GodelTech.Business" Version="2.0.1" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+	</ItemGroup>
+
+</Project>
