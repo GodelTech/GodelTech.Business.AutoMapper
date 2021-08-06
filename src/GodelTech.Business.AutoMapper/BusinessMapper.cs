@@ -1,5 +1,7 @@
-﻿using AutoMapper;
+﻿using System;
+using AutoMapper;
 
+[assembly: CLSCompliant(true)]
 namespace GodelTech.Business.AutoMapper
 {
     /// <summary>
