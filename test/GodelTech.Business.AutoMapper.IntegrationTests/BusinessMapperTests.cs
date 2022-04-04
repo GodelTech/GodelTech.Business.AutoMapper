@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
 using GodelTech.Business.AutoMapper.IntegrationTests.Fakes;
 using AutoMapper;
 using Xunit;
