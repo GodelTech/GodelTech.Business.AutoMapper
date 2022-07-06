@@ -7,7 +7,7 @@ namespace GodelTech.Business.AutoMapper
     /// <summary>
     /// DataMapper class.
     /// </summary>
-    /// <seealso cref="GodelTech.Business.IBusinessMapper" />
+    /// <seealso cref="IBusinessMapper" />
     public class BusinessMapper : IBusinessMapper
     {
         private readonly IMapper _mapper;

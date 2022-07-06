@@ -1,4 +1,4 @@
-using AutoMapper;
+﻿using AutoMapper;
 using GodelTech.Business.AutoMapper.Tests.Fakes;
 using Moq;
 using Xunit;
