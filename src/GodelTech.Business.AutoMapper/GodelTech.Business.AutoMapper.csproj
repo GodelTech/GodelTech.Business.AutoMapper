@@ -31,7 +31,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="AutoMapper" Version="11.0.1" />
-		<PackageReference Include="GodelTech.Business" Version="6.2.0" />
+		<PackageReference Include="GodelTech.Business" Version="6.3.0" />
 
 		<!-- Source Link needs this -->
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
