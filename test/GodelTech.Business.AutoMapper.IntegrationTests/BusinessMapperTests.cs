@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using AutoMapper;
+using FluentAssertions;
 using GodelTech.Business.AutoMapper.IntegrationTests.Fakes;
 using Xunit;
 
@@ -56,7 +57,7 @@ namespace GodelTech.Business.AutoMapper.IntegrationTests
                 .Map<FakeSource, FakeDestination>(source);
 
             // Assert
-            Assert.Equal(expectedResult, result, new FakeDestinationEqualityComparer());
+            result.Should().BeEquivalentTo(expectedResult);
         }
 
         public static IEnumerable<object[]> MapWithDestinationMemberData =>
@@ -119,7 +120,7 @@ namespace GodelTech.Business.AutoMapper.IntegrationTests
                 .Map(source, destination);
 
             // Assert
-            Assert.Equal(expectedResult, result, new FakeDestinationEqualityComparer());
+            result.Should().BeEquivalentTo(expectedResult);
         }
     }
 }
