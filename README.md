@@ -1,6 +1,7 @@
 # GodelTech.Business.AutoMapper
 
-Library for using AutoMapper with GodelTech.Business
+## Description
+GodelTech.Business.AutoMapper is a library designed to integrate AutoMapper with GodelTech.Business, providing seamless mapping capabilities in the business layer of your .NET applications.
 
 ## Overview
 `GodelTech.Business.AutoMapper` implements [GodelTech.Business](https://github.com/GodelTech/GodelTech.Business) `IBusinessMapper` interface using [AutoMapper](https://www.nuget.org/packages/AutoMapper) NuGet package. It allows to use mapping of `TSource` to `TDestination`.
@@ -26,3 +27,6 @@ public class BusinessMapper : IBusinessMapper
     }
 }
 ```
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
