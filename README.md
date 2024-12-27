@@ -1,6 +1,6 @@
 # GodelTech.Business.AutoMapper
 
-# Description
+## Description
 GodelTech.Business.AutoMapper is a library designed to integrate AutoMapper with GodelTech.Business, providing seamless mapping capabilities in the business layer of your .NET applications.
 
 ## Overview
